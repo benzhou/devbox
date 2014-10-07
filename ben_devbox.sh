@@ -2,6 +2,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew tap caskroom/cask
 brew install brew-cask
 brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup
+brew cask install java
 brew cask install google-chrome
 brew cask install alfred
 brew cask install vagrant
