@@ -19,3 +19,7 @@ brew install git
 #Symlimk for bash completion
 ln -s /usr/local/Cellar/git/2.1.2/etc/bash_completion.d/git-completion.bash ~/.git-completion.bash
 ln -s /usr/local/Cellar/git/2.1.2/etc/bash_completion.d/git-prompt.sh ~/.git-prompt.sh 
+
+ln -s ~/dev/devbox/.bash_profile ~/.bash_profile
+ln -s ~/dev/devbox/.bashrc ~/.bashrc
+ln -s ~/dev/devbox/.gitconfig ~/.gitconfig
