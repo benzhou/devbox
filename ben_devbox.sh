@@ -25,9 +25,12 @@ brew install wget
 #Dev install
 brew install git
 brew install nodejs
+brew install python
 brew install pandoc
 
 npm install -g markmon
+npm install -g jshint
+npm install -g jslint
 
 #Symlimk for bash completion
 ln -s /usr/local/Cellar/git/2.1.2/etc/bash_completion.d/git-completion.bash ~/.git-completion.bash
